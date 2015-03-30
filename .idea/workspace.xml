@@ -29,8 +29,8 @@
           <file leaf-file-name="books_controller.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7081545" vertical-offset="675" max-vertical-offset="1215">
-                  <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.74034333" vertical-offset="675" max-vertical-offset="1215">
+                  <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -39,18 +39,38 @@
           <file leaf-file-name="book.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/book.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-                  <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+                  <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="855">
+                  <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="friendly_id.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/initializers/friendly_id.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1410">
+                  <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="20150330130728_add_slug_to_books.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20150330130728_add_slug_to_books.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -83,8 +103,8 @@
           <file leaf-file-name="book.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/book.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4814815" vertical-offset="3" max-vertical-offset="255">
-                  <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.24691358" vertical-offset="0" max-vertical-offset="243">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -101,11 +121,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/books/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/index.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/db/migrate/20150330130728_add_slug_to_books.rb" />
         <option value="$PROJECT_DIR$/app/models/book.rb" />
         <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
       </list>
@@ -189,7 +210,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -729,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8196995" vertical-offset="337" max-vertical-offset="990">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5026178" vertical-offset="0" max-vertical-offset="573">
@@ -753,26 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/books/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="288">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/book.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -785,10 +832,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57939917" vertical-offset="0" max-vertical-offset="466">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="855">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/friendly_id.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1410">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150330130728_add_slug_to_books.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/book.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7081545" vertical-offset="675" max-vertical-offset="1215">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.74034333" vertical-offset="675" max-vertical-offset="1215">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding />
         </state>
       </provider>

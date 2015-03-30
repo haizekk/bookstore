@@ -45,5 +45,7 @@ group :development, :test do
 
   gem 'better_errors'
   gem 'binding_of_caller'
+  # FriendlyId is the "Swiss Army bulldozer" of slugging and permalink plugins for Active Record
+  gem 'friendly_id', '~> 5.1.0'
 end
 
