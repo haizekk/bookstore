@@ -6,6 +6,6 @@ class Book < ActiveRecord::Base
   end
 
   def to_param
-    "#{id}-#{name.parameterize}"
+    slug
   end
 end
