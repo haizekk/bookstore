@@ -9,4 +9,4 @@
     <p><%= book.description %></p>
 <% end %>
 
-<%= will_paginate @books %>
+<%= will_paginate @books, renderer: BootstrapPagination::Rails %>
