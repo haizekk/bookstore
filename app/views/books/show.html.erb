@@ -1,7 +1,8 @@
 <h1 class="page-header"><%= @book.name %></h1>
 <p><%= @book.description %></p>
 
-<%= image_tag "/books/#{@book.id}/cover/#{@book.cover_filename}" if @book.cover_filename? %>
+<%#= image_tag "/books/#{@book.id}/cover/#{@book.cover_filename}" if @book.cover_filename? %>
+<%= image_tag @book.cover.url if @book.cover? %>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Destroy', @book,method: :delete, data: { confirm: 'Are you sure?' }  %> |

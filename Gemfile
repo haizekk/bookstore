@@ -38,6 +38,8 @@ gem 'friendly_id', '~> 5.1.0'
 # will_paginate is a simple gem for performing paginated queries with ActiveRecord
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
+# carrierwave uploads files in your Ruby applications, map them to a range of ORMs, store them on different backends
+gem 'carrierwave', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
