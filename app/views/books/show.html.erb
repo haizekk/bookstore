@@ -1,16 +1,9 @@
-<p id="notice"><%= notice %></p>
+<h1 class="page-header"><%= @book.name %></h1>
+<p><%= @book.description %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @book.name %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @book.description %>
-</p>
+<%= image_tag "/books/#{@book.id}/cover/#{@book.cover_filename}" if @book.cover_filename? %>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Destroy', book_path(@book),method: :delete, data: { confirm: 'Are you sure?' }  %> |
+<%= link_to 'Destroy', @book,method: :delete, data: { confirm: 'Are you sure?' }  %> |
 
 <%= link_to 'Back', books_path %>
