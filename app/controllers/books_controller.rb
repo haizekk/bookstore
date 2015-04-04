@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.paginate(page: params[:page], per_page: 2)
-    redirect_to root_path if @books.empty?
+    #redirect_to root_path if @books.empty?
   end
 
   # GET /books/1
