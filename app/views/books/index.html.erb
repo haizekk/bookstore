@@ -1,14 +1,16 @@
 <div class="pull-right">
   <%= link_to 'New Book', new_book_path, class: "btn btn-default" %>
 </div>
+
+
+<h1>Listing Books</h1>
+
 <div>
   <% if @books.empty? %>
-      <p>No books here</p>
+      <h3>No books here</h3>
       <%= link_to 'New Book', new_book_path, class: "btn btn-default" %>
   <% end %>
 </div>
-
-<h1>Listing Books</h1>
 
 <% @books.each do |book| %>
     <h3><%= link_to book.name, book %></h3>
