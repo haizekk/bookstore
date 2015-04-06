@@ -7,7 +7,11 @@
 
 <div>
   <% if @books.empty? %>
+
       <h3>No books here</h3>
+
+      <p>Be the first to contribute. Add a new book:</p>
+
       <%= link_to 'New Book', new_book_path, class: "btn btn-default" %>
   <% end %>
 </div>
