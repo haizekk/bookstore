@@ -1,10 +1,13 @@
 <h1 class="page-header"><%= @book.name %></h1>
 <p><%= @book.description %></p>
-
+<p>Posted by: <%= @book.user.try(:email) %></p>
 <%#= image_tag "/books/#{@book.id}/cover/#{@book.cover_filename}" if @book.cover_filename? %>
 <%= image_tag @book.cover.url if @book.cover? %>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Destroy', @book,method: :delete, data: { confirm: 'Are you sure?' }  %> |
+<%# if @book.user == current_user %>
+    <%= link_to 'Edit', edit_book_path(@book) %> |
+    <%= link_to 'Destroy', @book,method: :delete, data: { confirm: 'Are you sure?' }  %> |
+
+<%# end %>
 
 <%= link_to 'Back', books_path %>
