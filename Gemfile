@@ -51,6 +51,6 @@ group :development, :test do
   gem 'spring'
   gem 'better_errors'
   gem 'binding_of_caller'
-
+  gem 'annotate', '~> 2.6.8'
 end
 
