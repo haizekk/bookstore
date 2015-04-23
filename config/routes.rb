@@ -29,8 +29,23 @@
 
 Rails.application.routes.draw do
   devise_for :users
-
   resources :books
+
+  authenticated :admin do
+    resources :books, module: "admin" do
+      member do
+        patch :publish
+        patch :unpublish
+      end
+
+      collection do
+        patch :publish_all
+        post :import
+      end
+  end
+
+
+  end
 
   root to: "books#index"
 
