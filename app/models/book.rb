@@ -23,4 +23,14 @@ class Book < ActiveRecord::Base
   mount_uploader :cover, CoverUploader
 
   belongs_to :user
+
+  def self.search(search)
+    if search
+      where('name LIKE ?', "%#{search}%")
+    else
+      Book.all
+    end
+  end
+
 end
+
